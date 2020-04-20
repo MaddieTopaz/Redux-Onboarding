@@ -3,5 +3,6 @@ export {
     subtract,
     increment,
     decrement,
-    storeResult
+    storeResult,
+    incrementIfOdd
 } from './actions';

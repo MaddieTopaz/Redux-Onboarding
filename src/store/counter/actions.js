@@ -32,3 +32,9 @@ export const storeResult = (result) => {
         result: result
     }
 }
+
+export const incrementIfOdd = () => {
+    return {
+        type: actionTypes.INCREMENT_IF_ODD
+    };
+}
